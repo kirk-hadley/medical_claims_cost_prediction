@@ -28,7 +28,7 @@ def stream_to_df(company, file):
         except:
             print "failed to decrypt"
 
-class MedicalCleaner:
+class CleanerMedical:
     def __init__(self, company, file):
         self.company = company
         self.file = file
