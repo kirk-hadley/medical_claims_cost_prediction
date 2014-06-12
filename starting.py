@@ -1,4 +1,4 @@
-__author__ = 'nuna'
+__author__ = 'kirk'
 import pandas as pd
 import numpy as np
 from generate_company_config import *
@@ -38,7 +38,7 @@ class EnrollmentCleaner:
         self.company = company
         self.file = file
         self.dataframe = decrypt_with_unique_id(company, file)
-        #TODO create list of people with necessary static features from enrollment
+        #TODO create list of individuals with necessary static features from enrollment
 
 
 
@@ -47,14 +47,3 @@ class MedicalCleaner:
         self.company = company
         self.file = file
         self.dataframe = decrypt_with_unique_id(company, file)
-
-
-
-
-
-
-
-
-
-def to_string(f):
-    str(f)
